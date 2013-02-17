@@ -1,4 +1,11 @@
 settings
 ========
 
-My personal settings files
+My personal settings files.
+
+Program settings
+========
+* Vim
+* Git
+* Bash
+

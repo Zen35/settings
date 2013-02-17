@@ -1,0 +1,55 @@
+[user]
+	name = nhirsch
+	email = nhirsch@zynga.com
+
+[credential]
+	helper = osxkeychain
+
+[core]
+	editor = vim
+    autocrlf = input
+	excludesfile = /Users/nhirsch/.gitignore_global
+
+[alias]
+    br = branch
+    ci = commit
+    cm = commit
+    co = checkout
+    df = diff
+    dc = diff --cached # diff staged changes
+    dt = difftool
+    dtc = difftool --cached # diff staged changes
+    lg = log -p
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    ls = ls-files
+    st = status
+    us = reset HEAD
+    cp = cherry-pick
+
+[color]
+    ui = auto
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+
+[difftool]
+    prompt = false
+
+[difftool "p4merge"]
+    external = "/Applications/p4merge.app/Contents/MacOS/p4merge" "$2" "$5" ||
+
+[merge]
+    tool = p4merge
+
+[mergetool]
+    prompt = false
+    keepBackup = false
+
+[mergetool "p4merge"]
+    path = "/Applications/p4merge.app/Contents/MacOS/p4merge"
+    trustExitCode = false
+
+[branch]
+    autosetuprebase = always
