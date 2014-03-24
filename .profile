@@ -1,4 +1,9 @@
+# bash
 PS1="[\d \t \u@\h:\w ] $ "
+
+# zsh
+#PS1="[%W %t %n@M:%. ] $ "
+
 
 source ~/git-completion.bash
 
