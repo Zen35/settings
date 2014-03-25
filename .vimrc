@@ -2,6 +2,8 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+set backspace=2
+
 au BufRead,BufNewFile *.tpl set filetype=smarty
 
 syntax on
