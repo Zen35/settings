@@ -27,11 +27,6 @@ alias dir='echo `pwd` | pbcopy'
 
 alias marked='open -a Marked'
 
-alias ninode='ssh nick@nicholashirsch.com'
-
-export ZLAT_GAME_PATH="/Users/nhirsch/dev/ZLA/theme/work";
-export ZLAT_ASSETS_TYPE="sandbox-upload";
-
 export PATH=$PATH:/usr/local/apps
 export PATH=$PATH:/Users/nhirsch/scripts
 export PATH=$PATH:/usr/local/Cellar/ruby/1.9.3-p327/bin
