@@ -24,3 +24,5 @@ if executable('coffeetags')
         \ }
         \ }
 endif
+
+call pathogen#infect()
