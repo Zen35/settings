@@ -25,4 +25,8 @@ if executable('coffeetags')
         \ }
 endif
 
+let g:user_emmet_leader_key='<C-y>'
+let g:user_emmet_expandabbr_key = '<S-Tab>'
+let g:use_emmet_complete_tag = 1
+
 call pathogen#infect()
