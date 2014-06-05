@@ -7,6 +7,7 @@ PS1="[\d \t \u@\h:\w ] $ "
 
 source ~/git-completion.bash
 
+alias gap='git ap'
 alias gbr='git br'
 alias gci='git ci'
 alias gcm='git cm'
