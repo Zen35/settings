@@ -11,6 +11,7 @@
 	excludesfile = /Users/nhirsch/.gitignore_global
 
 [alias]
+    ap = add -p
     br = branch
     ci = commit
     cm = commit
