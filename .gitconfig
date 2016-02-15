@@ -1,13 +1,13 @@
 [user]
 	name = nhirsch
-	email = nhirsch@zynga.com
+	email = nhirsch@FOO
 
 [credential]
 	helper = osxkeychain
 
 [core]
 	editor = vim
-    autocrlf = input
+	autocrlf = input
 	excludesfile = /Users/nhirsch/.gitignore_global
 
 [alias]
