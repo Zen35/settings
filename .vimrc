@@ -29,4 +29,8 @@ let g:user_emmet_leader_key='<C-y>'
 let g:user_emmet_expandabbr_key = '<S-Tab>'
 let g:use_emmet_complete_tag = 1
 
+let g:go_fmt_autosave = 0
+
+let g:netrw_liststyle=3
+
 call pathogen#infect()
